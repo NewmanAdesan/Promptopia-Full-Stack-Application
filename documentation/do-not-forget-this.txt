@@ -1,0 +1,12 @@
+
+Final documentation must include:
+    * The NextJS hooks utilized (useSession, useRouter, usePathname, useSearchParams)
+    * The NextJS API Endpoint used
+    * The NextJS routes used
+
+
+Note this technique (REUSABLE PAGES)
+if two pages look slightly the same, the componenet associated with the page will render a reusable component.
+look at the create-prompt route "/create-prompt" and the edit-prompt route "/update-prompt". they both render the Form component, specifying the right props to the component for the differentiation.
+look at profile page route to view my profile page "/profile" 
+and the profile page route to view other users profile page "/profile/users?id=[user-id]". they both render the Profile component supplying it different props for the differentiation. pretty cool!!!
